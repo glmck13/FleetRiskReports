@@ -13,3 +13,5 @@ Configuring alpine can be a little tricky, especially for OAUTH2 email servers, 
 openssl req -nodes -new -x509 -keyout private.key -out private.crt
 ```
 Also, don't forget to set the "customized-hdrs" field in .pinerc to: From:account@provider.com, where account@provider.com is the email account from which you'll be sending out reports & notifications.  Similarly, set "user-domain" to: provider.com.
+## Configuration
+After the software is installed on the Pi, edit risopts.conf to supply your own settings, and customize the text in risnotice.txt as desired. Lastly, create a crontab entry to schedule the execution of risfleet.sh according to your needs.
