@@ -25,8 +25,6 @@ do
 	[ "$CORNERING" -gt 0 ] && TABLE+="\tAggressive turn: "$CORNERING"\n"
 	[ "$BELT" -gt 0 ] && TABLE+="\tNo seat belt: "$BELT"\n"
 
-	EMAIL=$MAILTO
-	print $EMAIL
 	MESSAGE=$(cat "$NOTICE" | sed -e "s/%BEGIN%/$BEGIN/" -e "s/%END%/$END/" -e "s/%NAME%/${NAME#*, }/" -e "s/%TABLE%/$TABLE/" -e "s/%MAILTO%/$MAILTO/" | tr '\n' '\r')
 
 	sendaway.sh "$EMAIL" "Driving Exception Notice" "$MESSAGE"
