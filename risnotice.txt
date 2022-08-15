@@ -1,0 +1,15 @@
+Dear %NAME%,
+
+During the period from %BEGIN% to %END% the fleet
+management system detected the following exceptions while you were
+driving:
+%TABLE%
+Remember you are required to abide by our Motor Vehicle Policy
+whenever you operate a company vehicle, and are subject to the
+terms and conditions described therein.
+
+Please send an email to mailto:%MAILTO% acknowledging
+receipt of this notice.
+
+Thanks for your cooperation,
+The Fleet Management Team
