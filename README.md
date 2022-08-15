@@ -7,6 +7,12 @@ This app was developed for use on a Raspberry Pi.  Here's what you need to do to
    - ksh (my favorite shell!)
    - expect (needed to control alpine)
 3. Download, build, and install the alpine email client.  You can find that at [https://alpineapp.email](https://alpineapp.email/)
+4. Download the files from this repository.  Under ~pi (or whatever user your prefer):
+```
+mkdir bin etc tmp
+mv *.sh *.py ~/bin
+mv *.conf *.txt ~/etc
+```
 
 Configuring alpine can be a little tricky, especially for OAUTH2 email servers, but there are step-by-step instructions for doing this on the alpine site.  Also, before entering your email credentails you'll want to create a private key that alpine will use to encrypt the OAUTH tokens.  The key is stored in an X509 certificate file located in ~/.alpine-smime/.pwd.  Here's the command to generate your key files:
 ```
