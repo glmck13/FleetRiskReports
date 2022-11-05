@@ -1,0 +1,15 @@
+aN_xVgXdWlU2v2fKEQBgAOQ,Driver,Speeding,Excessive Speeding
+abEavtAYWr0aDFoY-D22QRw,Driver,Speeding,Excessive Speeding 15 Over Posted Road Speed
+aZTNYAs4t_EKZeZdPRiinrA,Driver,Speeding,Custom Speeding Rule REM Group > 25 MPH
+aGX3KFadxCk6r69MTyHQfGQ,Driver,Speeding,Custom Speeding Rule REM group Excluded >15 MPH
+aXbTh5Kq1UkeoB8tk_5wwbA,Driver,Speeding,REM Group Speeding Exception Rule  >25 MPH
+ao5mnQ1zL1UCiiUmNR_D4gg,Driver,Harsh Driving,Hard Acceleration Excludes COUT Group
+a4kULZL4aeEqDM4IAyQzO9A,Driver,Harsh Driving,Harsh Braking Excludes COUT group
+af6zrYEVExEqx5Ggyix5MhA,Driver,Harsh Driving,Harsh Cornering Excludes COUT Group
+aHAPnx-O7D0OH5cUWaTgZQQ,Driver,Harsh Driving,Possible Accident AUD Group
+ahQ4h1l2vSkua9etsTdtE6Q,Driver,Harsh Driving,Possible Accident BT Group
+adae-s-yu10G263xMtN-UAw,Driver,Harsh Driving,Possible Accident COUT Group
+RuleAccidentId,Driver,Harsh Driving,Possible Collision
+RuleSeatbeltId,Driver,Policy Issue,Seat belt
+RuleUnauthorizedDeviceRemovalId,Driver,Policy Issue,Unauthorized Device Removal
+alD7e1qFzzUWqR3qQOtt6mw,Device,Fob,Driver ID Notification - Not Using Key Fobs
